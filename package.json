@@ -1,0 +1,35 @@
+{
+  "name": "vconsole-outputlog-plugin",
+  "version": "0.2.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "http-server .",
+    "build": "webpack --mode production --progress"
+  },
+  "keywords": [],
+  "author": "sunlanda <relaxto@qq.com>",
+  "homepage": "https://github.com/sunlanda/vconsole-outputlog-plugin",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-add-module-exports": "^0.1.4",
+    "copy-to-clipboard": "^3.3.1",
+    "css-loader": "^3.3.0",
+    "html-loader": "^0.4.3",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "stats.js": "^0.17.0",
+    "style-loader": "^0.13.1",
+    "vconsole": "^3.3.4",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.3.1"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vconsole</title>
+    <script src="../node_modules/vconsole/dist/vconsole.min.js"></script>
+    <script src="../dist/vconsole-outputlog-plugin.min.js"></script>
+    <script>
+      // init vConsole
+      const vConsole = new VConsole();
+      const plugin = new VConsoleOutputLogsPlugin(vConsole);
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>vConsole -> exportsLog</h1>
+    </div>
+  </body>
+</html>

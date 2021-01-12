@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vconsole-exportlog-plugin-demo01</title>
+    <script src="../node_modules/vconsole/dist/vconsole.min.js"></script>
+    <script src="../dist/vconsole-outputlog-plugin.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>1. vConsole -> exportsLog -> exportLogs (支持web)</h2>
+      <h2>2. vConsole -> exportsLog -> copyLogs (支持web,微信)</h2>
+      <h2>app载体后续接入     更新中...</h2>
+    </div>
+    <script>
+      // init vConsole
+      const vConsole = new VConsole();
+      const plugin = new VConsoleOutputLogsPlugin(vConsole);
+      for (let i = 0; i < 100; i++) {
+        console.log(new Date().toLocaleDateString() + ' ' + Math.random());
+      }
+    </script>
+  </body>
+</html>
