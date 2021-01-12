@@ -5,8 +5,11 @@
 `output logs file and copy logs in vConsole Environment.`
 
 
+## 安装
+```
+npm install vconsole-outputlog-plugin
+```
 ## 引入
-
 
 ```html
   const vConsole = new VConsole();
